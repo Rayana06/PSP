@@ -1,0 +1,58 @@
+[
+  {
+   "id": 1,
+    "name": "Иванов И.И.",
+    "subject": "Микроэкономика",
+    "cabinet": "101",
+    "hours": 18,
+    "department": "Кафедра экономики",
+    "experience": "12 лет",
+    "email": "ivanov@bmstu.ru",
+    "description": "Преподаватель микроэкономики. Исследует рыночные структуры и экономическое поведение потребителей.",
+    "image": "/assets/lecturer1.png",
+    "model": "http://localhost:3000/models/teacher.glb?v=3",
+    "comments": []
+  },
+  {
+    "id": 2,
+    "name": "Бондарь В.В.",
+    "subject": "Экономическая география",
+    "cabinet": "103",
+    "hours": 24,
+    "department": "Кафедра географии",
+    "experience": "9 лет",
+    "email": "bondar@bmstu.ru",
+    "description": "Преподаватель экономической географии. Изучает мировые экономические процессы и развитие регионов.",
+    "image": "/assets/lecturer2.png",
+    "model": "http://localhost:3000/models/teacher.glb?v=3",
+    "comments": []
+  },
+  {
+    "id": 3,
+    "name": "Смирнов А.И.",
+    "subject": "Математический анализ",
+    "cabinet": "404",
+    "hours": 20,
+    "department": "Кафедра математики",
+    "experience": "15 лет",
+    "email": "smirnov@bmstu.ru",
+    "description": "Преподаватель математического анализа. Специализируется на интегральном и дифференциальном исчислении.",
+    "image": "/assets/lecturer3.png",
+    "model": "http://localhost:3000/models/teacher.glb?v=3",
+    "comments": []
+  },
+  {
+    "id": 4,
+    "name": "Кузнецов Д.А.",
+    "subject": "Программирование",
+    "cabinet": "206",
+    "hours": 16,
+    "department": "Кафедра информатики",
+    "experience": "7 лет",
+    "email": "kuznetsov@bmstu.ru",
+    "description": "Преподаватель программирования. Обучает разработке веб-приложений и современным технологиям JavaScript.",
+    "image": "/assets/lecturer4.png",
+    "model": "http://localhost:3000/models/teacher.glb?v=3",
+    "comments": []
+  }
+]
