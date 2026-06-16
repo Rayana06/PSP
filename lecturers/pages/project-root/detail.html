@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Просмотр модели</title>
+  <link rel="stylesheet" href="styles.css" />
+
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+        "three/examples/jsm/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+      }
+    }
+  </script>
+</head>
+<body>
+  <div class="container-app">
+    <div class="header">
+      <a class="home-btn" href="/index.html">Домой</a>
+      <h1>Детальный просмотр модели</h1>
+    </div>
+
+    <main class="detail-layout">
+      <div class="viewer-wrapper">
+        <canvas id="detailCanvas"></canvas>
+      </div>
+
+      <aside class="controls-panel">
+        <button id="zoomIn">+</button>
+        <button id="zoomOut">−</button>
+        <button id="rightView">Вид справа</button>
+        <button id="leftView">Вид слева</button>
+        <button id="backView">Вид сзади</button>
+        <button id="frontView">Вид спереди</button>
+      </aside>
+    </main>
+  </div>
+
+  <script type="module" src="detail.js"></script>
+</body>
+</html>
